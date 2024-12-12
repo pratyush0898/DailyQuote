@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #dff0ff;
+}
+
+header {
+    background-color: transparent;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 52px;
+}
+
+header .left span {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+header .right ul {
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+header .right ul li {
+    margin: 0 20px;
+}
+
+main {
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    margin-bottom: 24px;
+    width: 999px;
+    text-align: center;
+
+}
+
+main button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+main button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
