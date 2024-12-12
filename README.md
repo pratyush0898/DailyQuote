@@ -17,25 +17,6 @@
 - **ZenQuotes API**: To get random quotes.
 - **CORS Proxy**: Using `https://cors-anywhere.herokuapp.com/` to bypass CORS restrictions when fetching quotes from an external API.
 
-## Installation
-
-To get started with the project, follow these steps:
-
-1. **Clone the repository** (or download the files):
-    ```bash
-    git clone https://github.com/your-username/dailyquote.git
-    ```
-
-2. **Navigate to the project folder**:
-    ```bash
-    cd dailyquote
-    ```
-
-3. **Open the `index.html` file in your web browser**:
-    - You can simply double-click on the `index.html` file to open it in your default web browser.
-
-4. **Enjoy the DailyQuote generator!**
-
 ## Usage
 
 - Upon opening the page, you will see a "Daily Quote Generator" title and a "Get a Quote" button.
@@ -44,7 +25,7 @@ To get started with the project, follow these steps:
 
 ## Demo
 
-Check out a live demo here: [Link to your live demo, if available].
+Check out a live demo here: [dailyquote-69.netlify.app](https://dailyquote-69.netlify.app).
 
 ## CORS Proxy
 
